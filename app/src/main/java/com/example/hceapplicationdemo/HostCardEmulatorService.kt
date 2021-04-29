@@ -5,16 +5,11 @@ import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import androidx.annotation.RequiresApi
-
-/**
- * Created by mhamdaoui on 2017-10-27.
- */
 @RequiresApi(Build.VERSION_CODES.KITKAT)
 class HostCardEmulatorService : HostApduService() {
-
     companion object {
+        var STATUS_SUCCESS = "Salam Konul"
         val TAG = "Host Card Emulator"
-        val STATUS_SUCCESS = "Salam Konul"
         val STATUS_FAILED = "6F00"
         val CLA_NOT_SUPPORTED = "6E00"
         val INS_NOT_SUPPORTED = "6D00"
