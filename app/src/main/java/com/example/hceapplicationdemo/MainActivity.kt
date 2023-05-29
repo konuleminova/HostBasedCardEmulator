@@ -18,7 +18,5 @@ class MainActivity : AppCompatActivity() {
             STATUS_SUCCESS = editText.text.toString();
 
         }
-
-
     }
 }
